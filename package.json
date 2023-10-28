@@ -4,5 +4,14 @@
   "description": "A project that demonstrates how to set up a Node.js project: configured to only allow installation using pnpm.",
   "keywords": [],
   "author": "Eric Hosick <erichosick@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "only-allow": "^1.2.1"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "engines": {
+    "npm": "Use pnpm instead of npm."
+  }
 }
