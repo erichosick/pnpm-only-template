@@ -1,0 +1,8 @@
+{
+  "name": "@ehosick/pnpm-only-template",
+  "version": "0.0.1",
+  "description": "A project that demonstrates how to set up a Node.js project: configured to only allow installation using pnpm.",
+  "keywords": [],
+  "author": "Eric Hosick <erichosick@gmail.com>",
+  "license": "ISC"
+}
