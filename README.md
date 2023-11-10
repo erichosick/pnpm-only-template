@@ -15,6 +15,10 @@ You can verify the shell script at [https://raw.githubusercontent.com/erichosick
 curl -sL https://raw.githubusercontent.com/erichosick/pnpm-only-template/main/pnpm-only.sh | bash
 ```
 
+## Documented Iterative Development in Git History
+
+Use `git log --reverse` to see a run-down of how we built `pnpm-only-template`.
+
 ## Enforcing pnpm as the Exclusive Package Manager: What We Tried
 
 Ensuring that pnpm is the sole package manager for our projects required some research and community contributions. Special thanks to those who have shared insights on this topic.
